@@ -1,5 +1,5 @@
 # Debian-Post-Instalacion
-Post-Install Debian 
+Post-Install Debian 12
 
 ## Añadir usuario a sudoers root
 
@@ -36,7 +36,7 @@ The resolution used on graphical terminal
 # note that you can use only modes which your graphic card supports via VBE
 # you can see them in real GRUB with the command `vbeinfo'
 GRUB_GFXMODE=1366x768
-sudo update-grub
+sudo apt update-grub -y
 
 ```
 ## Lista de Firmware
@@ -145,8 +145,71 @@ sudo apt-get install ttf-mscorefonts-installer
 
 ```
 sudo apt-get install fonts-ubuntu
+
 ```
-## 
+
+```
+sudo apt-get install fonts-powerline -y
+
+```
+
+## Linux, los backports son paquetes de software que se adaptan de versiones posteriores para usarse en versiones antiguas
+
+```
+sudo apt install -t bookworm-backports linux-image-amd64
+
+```
+## UFW (Uncomplicated Firewall) es un programa que administra el firewall en sistemas Linux
+
+```
+sudo apt install gufw -y
+
+```
+## riseup-vpn es un proyecto que ofrece herramientas de comunicación segura y anónima, incluyendo un servicio VPN
+
+```
+sudo apt install riseup-vpn -y
+
+```
+
+## VLC Media Player es un reproductor multimedia gratuito, de código abierto y multiplataforma
+
+```
+sudo apt install vlc -y
+
+```
+## Kvantum es un personalizador de estilos para Qt6 que permite dar una apariencia uniforme a las aplicaciones Qt y GTK
+
+```
+sudo apt install qt5-style-kvantum qt5-style-kvantum-themes -y
+
+```
+
+## fastfetch es una herramienta de línea de comandos que muestra información del sistema operativo en la terminal
+
+```
+sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
+
+```
+
+```
+sudo apt update
+
+```
+
+```
+sudo apt install fastfetch -y
+
+```
+
+## FIN
+
+
+
+
+
+
+
 
 
 

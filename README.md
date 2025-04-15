@@ -69,3 +69,36 @@ deb https://ftp.debian.org/debian/ bookworm-backports contrib main non-free non-
 
 `sudo apt install synaptic -y`
 
+`sudo apt install linux-headers-$(uname -r) -y`
+
+`sudo apt  install build-essential checkinstall make automake cmake autoconf git git-core dpkg wget -y`
+
+`sudo apt install exfat-fuse hfsplus hfsutils ntfs-3g -y`
+
+`sudo apt install gdebi gdebi-core synaptic -y`
+
+`sudo apt install p7zip-full p7zip-rar rar unrar -y`
+
+`sudo apt install ffmpeg libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-plugins-bad gstreamer1.0-pulseaudio vorbis-tools -y`
+
+`sudo apt-get install fonts-freefont-ttf fonts-freefont-otf -y`
+
+`sudo apt -y install fonts-inconsolata fonts-droid-fallback xfonts-terminus fonts-droid-fallback ttf-bitstream-vera fonts-cantarell fonts-liberation fonts-oflb-asana-math fonts-mathjax -y`
+
+`sudo apt-get install ttf-mscorefonts-installer -y`
+
+`sudo apt-get install fonts-ubuntu -y`
+
+`sudo apt install -t bookworm-backports linux-image-amd64 -y`
+
+`sudo apt-get install fonts-powerline -y`
+
+`sudo apt install gufw -y`
+
+`sudo apt install riseup-vpn -y`
+
+`sudo apt install vlc -y`
+
+
+
+

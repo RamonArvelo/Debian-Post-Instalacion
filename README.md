@@ -71,7 +71,7 @@ deb https://ftp.debian.org/debian/ bookworm-backports contrib main non-free non-
 sudo apt update && sudo apt upgrade -y
 
 ```
-## 
+## Instalador de paquetes neofetch htop
 
 
 ```
@@ -79,20 +79,28 @@ sudo apt install neofetch htop -y
 
 ```
 
+## Synaptic es un gestor de paquetes, de programas visual
+
 ```
 sudo apt install synaptic -y
 
 ```
 
+## linux-headers, son archivos que contienen la definición de funciones del kernel de Linux
+
+
 ```
 sudo apt install linux-headers-$(uname -r) -y
 
 ```
+## Instalador de paquetes basico copilaccion
 
 ```
 sudo apt  install build-essential checkinstall make automake cmake autoconf git git-core dpkg wget -y
 
 ```
+
+## exFAT-fuse es un controlador que permite usar el sistema de archivos exFAT en sistemas que no son compatibles con el kernel
 
 ```
 sudo apt install exfat-fuse hfsplus hfsutils ntfs-3g -y

@@ -63,11 +63,16 @@ deb https://ftp.debian.org/debian/ bookworm-backports contrib main non-free non-
 ```
 ## Instalador de paquetes basico
 
+
+## Actualiza tu sistema
+
 ```
 
 sudo apt update && sudo apt upgrade -y
 
 ```
+## 
+
 
 ```
 sudo apt install neofetch htop -y

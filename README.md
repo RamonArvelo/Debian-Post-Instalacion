@@ -5,6 +5,8 @@ Post-Install Debian
 
 `sudo nano /etc/sudoers`
 
+`sudo vim /etc/sudoers`
+
 
 ```
  Defaults env_reset,pwfeedback
@@ -71,8 +73,8 @@ deb https://ftp.debian.org/debian/ bookworm-backports contrib main non-free non-
 sudo apt update && sudo apt upgrade -y
 
 ```
-## Instalador de paquetes neofetch htop
 
+## Instalador de paquetes neofetch htop
 
 ```
 sudo apt install neofetch htop -y
@@ -107,17 +109,45 @@ sudo apt install exfat-fuse hfsplus hfsutils ntfs-3g -y
 
 ```
 
-```
-sudo apt install gdebi gdebi-core synaptic -y
+## Gdebi es una herramienta que permite instalar paquetes .deb en Linux
 
 ```
+sudo apt install gdebi gdebi-core  -y
+
+```
+
+## 7-zip es un compresor de archivos gratuito, multiplataforma y de código abierto
 
 ```
 sudo apt install p7zip-full p7zip-rar rar unrar -y
 
 ```
+## códec es un programa o dispositivo que codifica o decodifica señales digitales de audio o video
 
 ```
 sudo apt install ffmpeg libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-plugins-bad gstreamer1.0-pulseaudio vorbis-tools -y
 ```
+
+## Font es un tipo de letra, y puede referirse a un elemento HTML o a un archivo electrónico
+
+```
+sudo apt-get install fonts-freefont-ttf fonts-freefont-otf -y
+
+```
+```
+sudo apt -y install fonts-inconsolata fonts-droid-fallback xfonts-terminus fonts-droid-fallback ttf-bitstream-vera fonts-cantarell fonts-liberation fonts-oflb-asana-math fonts-mathjax
+
+```
+```
+sudo apt-get install ttf-mscorefonts-installer
+
+```
+
+```
+sudo apt-get install fonts-ubuntu
+```
+## 
+
+
+
 

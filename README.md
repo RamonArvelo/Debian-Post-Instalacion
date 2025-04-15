@@ -63,6 +63,8 @@ deb https://ftp.debian.org/debian/ bookworm-backports contrib main non-free non-
 ```
 ## Instalador de paquetes basico
 
+```
+
 `sudo apt update && sudo apt upgrade -y`
 
 `sudo apt install neofetch htop -y`
@@ -99,6 +101,6 @@ deb https://ftp.debian.org/debian/ bookworm-backports contrib main non-free non-
 
 `sudo apt install vlc -y`
 
-
+```
 
 

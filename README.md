@@ -67,19 +67,42 @@ deb https://ftp.debian.org/debian/ bookworm-backports contrib main non-free non-
 
 `sudo apt update && sudo apt upgrade -y`
 
+```
+
+```
+
 `sudo apt install neofetch htop -y`
+
+```
+
+```
 
 `sudo apt install synaptic -y`
 
+```
+
+```
+
 `sudo apt install linux-headers-$(uname -r) -y`
 
+```
+
+```
 `sudo apt  install build-essential checkinstall make automake cmake autoconf git git-core dpkg wget -y`
+```
 
+```
 `sudo apt install exfat-fuse hfsplus hfsutils ntfs-3g -y`
+```
 
+```
 `sudo apt install gdebi gdebi-core synaptic -y`
+```
 
+```
 `sudo apt install p7zip-full p7zip-rar rar unrar -y`
+```
+
 
 `sudo apt install ffmpeg libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-plugins-bad gstreamer1.0-pulseaudio vorbis-tools -y`
 

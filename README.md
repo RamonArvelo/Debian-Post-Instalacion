@@ -15,7 +15,7 @@ Post-Install Debian
 nombre de usuario ALL=(ALL:ALL) ALL
 
 ```
-## PARA PONER USUARIO GROUP
+## Para Poner Usuario Group
 
 `sudo nano /etc/group`
 
@@ -63,9 +63,9 @@ deb https://ftp.debian.org/debian/ bookworm-backports contrib main non-free non-
 ```
 ## Instalador de paquetes basico
 
-```
-1- sudo apt update && sudo apt upgrade
-2- sudo apt install neofetch htop
-3- sudo apt install synaptic
+`sudo apt update && sudo apt upgrade -y`
 
-```
+`sudo apt install neofetch htop -y`
+
+`sudo apt install synaptic -y`
+

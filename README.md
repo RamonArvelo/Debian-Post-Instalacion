@@ -202,6 +202,14 @@ sudo apt install fastfetch -y
 
 ```
 
+## Liquorix es un kernel de Linux que está optimizado para mejorar el rendimiento de sistemas interactivos, como aplicaciones multimedia y juegos
+
+```
+curl -s 'https://liquorix.net/install-liquorix.sh'| sudo bash
+
+```
+
+
 ## FIN
 
 
